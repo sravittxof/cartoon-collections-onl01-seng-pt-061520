@@ -25,7 +25,7 @@ def find_the_cheese(snacks)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0
-  while < cheese_types.length
+  while i < cheese_types.length
     if snacks.include?(cheese_types[i])
       return cheese_types[i]
     else
